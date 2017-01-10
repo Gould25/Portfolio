@@ -53,7 +53,7 @@ module.exports = function(grunt) {
     mkdir: {
       dev: {
         options: {
-          create: ['images','css','images_src','js','images/unsized']
+          create: ['images','css','images_src','js','icons']
         },
       },
     },
