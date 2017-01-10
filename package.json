@@ -18,5 +18,12 @@
   "homepage": "https://github.com/Gould25/Portfolio#readme",
   "dependencies": {
     "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-responsive-images": "^1.10.1"
   }
 }

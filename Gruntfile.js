@@ -14,9 +14,17 @@ module.exports = function(grunt) {
         options: {
           engine: 'im',
           sizes: [{
-            width: 800,
+            width: 320,
             suffix: "_x1",
             quality: 50
+          },{
+            name: 'medium',
+            width: 640
+          },{
+            name: 'large',
+            width: 1024,
+            suffix:'_x2',
+            quality: 60
           }]
         },
 
@@ -45,7 +53,7 @@ module.exports = function(grunt) {
     mkdir: {
       dev: {
         options: {
-          create: ['images','css','images_src']
+          create: ['images','css','images_src','js','images/unsized']
         },
       },
     },
