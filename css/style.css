@@ -1,0 +1,16 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #FF9C00;
+  font-weight: 400;
+}
+
+.text-muted {
+  color: #BCBBBB;
+}
+.text-title {
+  font-weight: 300;
+  font-size: 60px;
+}
+.title-logo {
+  margin-top: 20px;
+}
