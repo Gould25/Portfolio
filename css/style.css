@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #2d3c49;
   font-weight: 200;
 }
@@ -10,6 +10,7 @@ body {
 .text-title {
   font-weight: 300;
   font-size: 60px;
+  font-family: 'Roboto Thin';
 }
 .title-logo {
   margin-top: 20px;
