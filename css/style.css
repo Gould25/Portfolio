@@ -1,7 +1,8 @@
-body {
-  font-family: Lato, sans-serif;
-  color: #2d3c49;
-  font-weight: 200;
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
 }
 
 .text-muted {
@@ -10,20 +11,52 @@ body {
 .text-title {
   font-weight: 100;
   font-size: 60px;
-  font-family: Lato Thin;
-}
-.title-logo {
-  margin-top: 20px;
+  font-family: 'Lato Thin';
 }
 
+.container-fluid {
+  padding-top: 25px;
+  max-width: 1200px;
+}
+body {
+  font-family: Lato, sans-serif;
+  color: #2d3c49;
+  font-weight: 200;
+}
 a {
   color: #02b3e4;
   margin-right: 10px;
   font-size: 18px;
 }
-@import url(http://weloveiconfonts.com/api/?family=zocial);
+img {
+  vertical-align: middle;
+}
+h1,
+.h1 {
+  margin: 0 0 10px 0;
+}
+h2,
+.h2 {
+  margin-top: 20px;
+}
+h3,
+.h3 {
+  margin: 10px 0;
+}
+hr {
+  border-top: 3px solid #7d97ad;
+  margin: 10px 15px 20px;
+}
 
-/* zocial */
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
+@media screen and (min-width: 650px) and (max-width: 995px){
+  .col-md-4 {
+    float: left;
+  }
+  .col-md-4 {
+    width: 50%;
+  }
+  .col-md-9 {
+    width: 75%;
+    float: right;
+  }
 }
